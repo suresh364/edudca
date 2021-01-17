@@ -78,7 +78,7 @@ services:
     image: dockersamples/visualizer:stable
     ports:
       - "8080:8080"
-    stop_grace_period: 1m30s
+    stop_grace_period: 1m40s
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     deploy:
